@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Personal portfolio of my work about front-end development"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <script defer src="src/script.js"></script>
@@ -13,7 +17,67 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Poppins:wght@400;600;700&family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/91ebfada51.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio-project-Renata</title>
   </head>
-  <body></body>
+  <body>
+    <header class="heading">
+      <nav class="navbar">
+        <ul class="nav-lists">
+          <li class="nav-list">Projects</li>
+          <li class="nav-list">Home</li>
+          <li class="nav-list">About</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="heading-hero">
+              Hello! <span class="name">I'm Renata</span>
+              <span class="description">Front-end web developer</span>
+            </h1>
+            <div class="row row-skills">
+              <div class="col-4"><span class="skill-html">HTML</span></div>
+              <div class="col-4"><span class="skill-CSS">CSS</span></div>
+              <div class="col-4">
+                <span class="skill-javascript">JavaScript</span>
+              </div>
+              <div class="col-6"><span class="skill-react">React</span></div>
+              <div class="col-6">
+                <span class="skill-bootstrap">Bootstrap</span>
+              </div>
+            </div>
+            <a href="mailto:renata.andriusiene@gmail.com" class="btn-contact"
+              >Contact Me</a
+            >
+          </div>
+          <div class="col-6">
+            <img
+              src="coding.svg"
+              alt="coding girl illustration"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </div>
+      <aside class="contact-link">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-github"></i>
+      </aside>
+    </main>
+  </body>
 </html>
