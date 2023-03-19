@@ -18,6 +18,7 @@ html {
   align-items: center;
   width: 100%;
   margin-bottom: 10rem;
+  height: 4rem;
 }
 .nav-container {
   height: 100%;
@@ -34,6 +35,28 @@ ul li .nav-link {
   color: #212020;
   text-decoration: none;
   font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  transition: 0.5s;
+}
+
+ul li .nav-link::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border: 1px solid rgb(153, 225, 203);
+  top: 100%;
+  left: 0;
+  transition: transform 0.2s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+ul li .nav-link:hover::after {
+  color: #3a3a3a;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 .hamburger-menu {
   position: absolute;
@@ -57,6 +80,12 @@ img {
 }
 
 @media (max-width: 600px) {
+  ul li .nav-link:hover {
+    color: white;
+  }
+  ul li .nav-link:hover::after {
+    transform: scaleX(0);
+  }
   .navbar-item {
     flex-direction: column;
     align-items: flex-start;
@@ -66,9 +95,15 @@ img {
     z-index: 1;
   }
   .nav-container {
-    display: none;
-    background-color: beige;
+    /* display: none; */
+    flex-direction: column;
     width: 100%;
+    position: fixed;
+    background-color: #d7dcd6;
+    top: 0;
+    right: -100%;
+    height: auto;
+    transition: 0.4s ease-out;
   }
   .nav-container ul {
     width: 100%;
@@ -82,6 +117,6 @@ img {
     padding: 0.5rem 1rem;
   }
   .nav-container.active {
-    display: flex;
+    right: 0;
   }
 }
