@@ -34,6 +34,7 @@
   <body>
     <header>
       <div class="navbar-item">
+        <!-- ? Hamburger menu -->
         <a href="#" class="hamburger-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -50,40 +51,51 @@
     </header>
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-6">
             <h1 class="heading-hero">
               Hello! <span class="name">I'm Renata</span>
               <span class="description">Front-end web developer</span>
             </h1>
-            <div class="row row-skills">
-              <div class="col-4"><span class="skill-html">HTML</span></div>
-              <div class="col-4"><span class="skill-CSS">CSS</span></div>
-              <div class="col-4">
-                <span class="skill-javascript">JavaScript</span>
+            <div class="d-flex">
+              <div class="pe-2">
+                <span class="skills skill-html">HTML</span>
               </div>
-              <div class="col-6"><span class="skill-react">React</span></div>
-              <div class="col-6">
-                <span class="skill-bootstrap">Bootstrap</span>
+              <div class="pe-2">
+                <span class="skills skill-CSS">CSS</span>
               </div>
+              <div class="">
+                <span class="skills skill-javascript">JavaScript</span>
+              </div>
+              <!-- <div class="col-6">
+                <span class="skills skill-react">React</span>
+              </div> -->
+            </div>
+            <div class="d-flex pt-2 pb-5">
+              <span class="skills skill-bootstrap">Bootstrap</span>
             </div>
             <a href="mailto:renata.andriusiene@gmail.com" class="btn-contact"
-              >Contact Me</a
-            >
+              >Contact Me <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="col-6">
             <img
               src="coding.svg"
               alt="coding girl illustration"
-              class="hero-img"
+              class="img-fluid mx-auto d-block hero-img"
             />
           </div>
         </div>
       </div>
       <aside class="contact-link">
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-square-github"></i>
+        <a
+          href="https://www.linkedin.com/in/renata-andriu%C5%A1ien%C4%97-13b2481b7/"
+        >
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/An-Renata">
+          <i class="fa-brands fa-square-github"></i
+        ></a>
       </aside>
     </main>
   </body>
