@@ -8,7 +8,9 @@
       content="Personal portfolio of my work about front-end development"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/general.css" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/media.css" />
     <script defer src="src/script.js"></script>
     <!-- bootsrap -->
     <link
@@ -32,75 +34,77 @@
     <title>Portfolio-project-Renata</title>
   </head>
   <body>
-    <header>
-      <div class="navbar-item">
-        <!-- ? Hamburger menu -->
-        <a href="#" class="hamburger-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="nav-container">
-          <ul>
-            <li><a class="nav-link" href="#">Projects</a></li>
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">About</a></li>
-          </ul>
+    <div class="hero-content">
+      <header>
+        <div class="navbar-item">
+          <!-- ? Hamburger menu -->
+          <a href="#" class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="nav-container">
+            <ul>
+              <li><a class="nav-link" href="#">Projects</a></li>
+              <li><a class="nav-link" href="#">Home</a></li>
+              <li><a class="nav-link" href="#">About</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <h1 class="heading-hero">
-              Hello! <span class="name">I'm Renata</span>
-              <span class="description">Front-end web developer</span>
-            </h1>
-            <div class="d-flex">
-              <div class="pe-2">
-                <span class="skills skill-html">HTML</span>
-              </div>
-              <div class="pe-2">
-                <span class="skills skill-CSS">CSS</span>
-              </div>
-              <div class="">
-                <span class="skills skill-javascript">JavaScript</span>
-              </div>
-              <!-- <div class="col-6">
+      </header>
+      <main>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-6 justify-content-sm-between">
+              <h1 class="heading-hero">
+                Hello! <span class="name">I'm Renata</span>
+                <span class="description">Front-end web developer</span>
+              </h1>
+              <div class="d-flex">
+                <div class="pe-2">
+                  <span class="skills skill-html">HTML</span>
+                </div>
+                <div class="pe-2">
+                  <span class="skills skill-CSS">CSS</span>
+                </div>
+                <div class="">
+                  <span class="skills skill-javascript">JavaScript</span>
+                </div>
+                <!-- <div class="col-6">
                 <span class="skills skill-react">React</span>
               </div> -->
+              </div>
+              <div class="d-flex pt-2 pb-5">
+                <span class="skills skill-bootstrap">Bootstrap</span>
+              </div>
+              <a href="mailto:renata.andriusiene@gmail.com" class="btn-contact"
+                >Contact Me <i class="fa-solid fa-arrow-right"></i
+              ></a>
             </div>
-            <div class="d-flex pt-2 pb-5">
-              <span class="skills skill-bootstrap">Bootstrap</span>
+            <div class="col-sm-6">
+              <img
+                src="coding.svg"
+                alt="coding girl illustration"
+                class="mx-auto d-none d-sm-block hero-img"
+              />
             </div>
-            <a href="mailto:renata.andriusiene@gmail.com" class="btn-contact"
-              >Contact Me <i class="fa-solid fa-arrow-right"></i
-            ></a>
-          </div>
-          <div class="col-6">
-            <img
-              src="coding.svg"
-              alt="coding girl illustration"
-              class="img-fluid mx-auto d-block hero-img"
-            />
           </div>
         </div>
-      </div>
-      <aside class="contact-link">
-        <a
-          class="linkedin"
-          href="https://www.linkedin.com/in/renata-andriu%C5%A1ien%C4%97-13b2481b7/"
-        >
-          <i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a class="github" href="https://github.com/An-Renata">
-          <i class="fa-brands fa-square-github"></i
-        ></a>
-        <a class="email" href="mailto:andriusiene.renata@gmail.com">
-          <i class="fa-solid fa-square-envelope"></i
-        ></a>
-      </aside>
-    </main>
+        <aside class="contact-link">
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/renata-andriu%C5%A1ien%C4%97-13b2481b7/"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a class="github" href="https://github.com/An-Renata">
+            <i class="fa-brands fa-square-github"></i
+          ></a>
+          <a class="email" href="mailto:andriusiene.renata@gmail.com">
+            <i class="fa-solid fa-square-envelope"></i
+          ></a>
+        </aside>
+      </main>
+    </div>
   </body>
 </html>

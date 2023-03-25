@@ -1,0 +1,22 @@
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+:root {
+  ---primary-color: #2e2a38;
+  --secondary-color: #fff;
+  --accent-color: #7dafa1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(---primary-color);
+}
+html {
+  font-size: 62.5%;
+}
+.hero-content {
+  margin: 0 auto;
+  height: 100vh;
+  background: linear-gradient(to right, #d3ded3c0, #ffffff);
+}
