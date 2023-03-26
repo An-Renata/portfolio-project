@@ -183,3 +183,47 @@ img {
 .email:hover::before {
   transform: scaleX(1);
 }
+/* projects  */
+.projects-header {
+  position: relative;
+  padding: 6rem 0;
+  background-image: url(https://images.pexels.com/photos/1834403/pexels-photo-1834403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  margin-bottom: 15rem;
+  padding-left: 10rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+}
+.projects-header::after {
+  position: absolute;
+  content: "PROJECTS";
+  top: 4.5rem;
+  left: 22rem;
+  filter: blur(1.5px);
+  font-size: 2.5rem;
+}
+/* .project-body {
+  display: grid;
+  grid-template-columns: repeat(100px, minmax(200, 1fr));
+}
+
+.image-body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.project-img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.project-content {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  background-color: #a1b5af6c;
+} */
