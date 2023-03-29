@@ -139,7 +139,6 @@ img {
 }
 .hero-img {
   width: 80%;
-  /* box-shadow: 1rem 1rem 3rem -1.3rem #d5d5d5cd; */
 }
 
 /* CONTACT ICONS */
@@ -195,6 +194,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: fill;
+  width: 100%;
   margin-bottom: 12rem;
   padding-left: 10rem;
   text-transform: uppercase;
