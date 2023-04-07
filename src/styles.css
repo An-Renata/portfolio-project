@@ -363,3 +363,8 @@ img {
 .contact-link-footer:hover {
   text-decoration: underline;
 }
+.source-code {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
