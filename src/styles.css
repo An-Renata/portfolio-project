@@ -338,3 +338,28 @@ img {
 .email.about-text::before {
   color: #fff;
 }
+/* CONTACTS FOOTER */
+.contacts-footer {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contacts-footer > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.contact-name-footer {
+  opacity: 0.9;
+  font-size: 1.4rem;
+}
+.contact-link-footer {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+}
+.contact-link-footer:hover {
+  text-decoration: underline;
+}
