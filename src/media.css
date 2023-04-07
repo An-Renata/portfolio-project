@@ -12,7 +12,7 @@
   }
   .hamburger-menu {
     display: flex;
-    z-index: 100;
+    z-index: 20;
   }
   .nav-container {
     flex-direction: column;
@@ -23,6 +23,7 @@
     right: -100%;
     height: auto;
     transition: 0.4s ease-out;
+    z-index: 5;
   }
   .about-header {
     display: none;
