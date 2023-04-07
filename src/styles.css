@@ -242,7 +242,7 @@ img {
 .main-section {
   height: 90vh;
   width: 100%;
-  background-image: url("../about-coding-bg.jpg");
+  background-image: url("../images/about-coding-bg.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
