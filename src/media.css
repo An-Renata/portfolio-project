@@ -12,7 +12,7 @@
   }
   .hamburger-menu {
     display: flex;
-    z-index: 1;
+    z-index: 100;
   }
   .nav-container {
     flex-direction: column;
@@ -23,6 +23,9 @@
     right: -100%;
     height: auto;
     transition: 0.4s ease-out;
+  }
+  .about-header {
+    display: none;
   }
   .nav-container ul {
     width: 100%;
@@ -86,7 +89,7 @@
     font-size: 2rem;
   }
   .skills {
-    font-size: rem;
+    font-size: 1rem;
   }
   .btn-contact {
     font-size: 1rem;
@@ -95,6 +98,13 @@
   .projects-cards {
     flex-direction: column;
     align-items: center;
+  }
+
+  .accordion-heading {
+    font-size: 1rem;
+  }
+  .accordion-heading::after {
+    font-size: 2rem;
   }
 }
 @media (max-width: 420px) {
